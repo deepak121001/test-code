@@ -1,0 +1,11 @@
+mountpoints:
+  /:
+    url: https://adobe.sharepoint.com/:f:/r/sites/ACS-Commerce-Medics/Shared%20Documents/NextGenSaaS/OPTP/eds-store-front?csf=1&web=1&e=xBiWHH
+    type: markup
+
+folders:
+  /products/: /products/default
+  /books/: /books/default
+  /therapy/: /therapy/default
+  /fitness/: /fitness/default
+  /blogs/: /blogs/default
