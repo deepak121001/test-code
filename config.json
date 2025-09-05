@@ -1,8 +1,8 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-      "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/5RSwtvAihfA4z1c56rKs1n/graphql",
+      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/bd08a354-7118-48a2-940a-15bcb59d135f/graphql",
       "headers": {
         "all": {
           "Store": "default"
@@ -12,30 +12,28 @@
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
-          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
-          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
+          "x-api-key": "not_used",
+          "Magento-Environment-Id": "5RSwtvAihfA4z1c56rKs1n"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
-        "store-code": "main_website_store",
         "store-id": 1,
-        "store-name": "Main Website Store",
-        "store-url": "https://www.aemshop.net",
-        "store-view-code": "default",
+        "store-name": "OPTP Store",
+        "store-url": "https://main--optp-eds--magento-ecg-team.aem.page",
         "store-view-id": 1,
         "store-view-name": "Default Store View",
-        "website-code": "base",
         "website-id": 1,
         "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
-           "rootCategory": "2"
-         }
-      }
+          "rootCategory": "2"
+        }
+      },
+      "yotpo-config-url": "https://1244026-232kangaroocopper-stage.adobeio-static.net/api/v1/web/yotpo/public-config",
+      "commerce-base-currency-code": "$"
     }
   }
 }
